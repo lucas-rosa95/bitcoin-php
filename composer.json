@@ -27,8 +27,8 @@
     "pleonasm/merkle-tree": "1.0.0",
     "composer/semver": "^1.4.0|^3.2.0",
     "lastguest/murmurhash": "v2.0.0",
-    "mdanter/ecc": "^0.5.0",
-    "bitwasp/buffertools": "^0.5.0",
+    "paragonie/phpecc": "^v2.5.0",
+    "lucas-rosa95/buffertools-php": "dev-master",
     "bitwasp/bech32": "^0.0.1"
   },
   "suggest": {
@@ -42,5 +42,11 @@
     "nbobtc/bitcoind-php": "v2.0.2",
     "bitwasp/secp256k1-php": "^v0.2.0",
     "bitwasp/bitcoinconsensus": "v3.0.0"
-  }
+  },
+  "repositories": [
+      {
+          "type": "vcs",
+          "url": "https://github.com/lucas-rosa95/buffertools-php"
+      }
+    ]
 }
