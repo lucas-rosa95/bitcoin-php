@@ -27,7 +27,7 @@
     "pleonasm/merkle-tree": "1.0.0",
     "composer/semver": "^1.4.0|^3.2.0",
     "lastguest/murmurhash": "v2.0.0",
-    "paragonie/phpecc": "^2.5",
+    "paragonie/ecc": "^2.5",
     "lucas-rosa95/buffertools-php": "dev-master",
     "bitwasp/bech32": "^0.0.1"
   },
